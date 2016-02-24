@@ -16,7 +16,7 @@
                 <GradientStop Color="#FFE800FF" Offset="0.35"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button x:Name="Nappula" Content="Button" HorizontalAlignment="Left" Margin="128,275,0,0" VerticalAlignment="Top" FontFamily="Ravie" FontWeight="Bold" FontSize="18.667" Background="Black" BorderBrush="Magenta" Click="Nappula_Click">
+        <Button x:Name="Nappula" Content="Laske" HorizontalAlignment="Left" Margin="128,275,0,0" VerticalAlignment="Top" FontFamily="Ravie" FontWeight="Bold" FontSize="18.667" Background="Black" BorderBrush="Magenta" Click="Nappula_Click">
             <Button.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
@@ -29,12 +29,12 @@
         <TextBlock x:Name="Leveys" HorizontalAlignment="Left" Margin="251,45,0,0" TextWrapping="Wrap" Text="Leveys(L)" VerticalAlignment="Top" Foreground="#FF00D1FF" FontFamily="Niagara Solid" FontSize="29.333" SelectionChanged="textBlock_SelectionChanged" ContextMenuOpening="Leveys_ContextMenuOpening" SelectionHighlightColor="#FF74FF00" RequestedTheme="Dark"/>
         <TextBlock x:Name="Korkeus" HorizontalAlignment="Left" Margin="251,102,0,0" TextWrapping="Wrap" Text="Korkeus(H)" VerticalAlignment="Top" Foreground="#FF00D1FF" FontFamily="Niagara Solid" FontSize="29.333" SelectionHighlightColor="#FF74FF00" RequestedTheme="Dark"/>
         <TextBlock x:Name="Karmi" HorizontalAlignment="Left" Margin="251,174,0,0" TextWrapping="Wrap" Text="Karmin leveys(W)" VerticalAlignment="Top" Foreground="#FF00D1FF" FontFamily="Niagara Solid" FontSize="29.333" SelectionHighlightColor="#FF74FF00" RequestedTheme="Dark"/>
-        <TextBox x:Name="Leveys_syote" HorizontalAlignment="Left" Margin="10,49,0,0" TextWrapping="Wrap" Text="Esim 12" VerticalAlignment="Top" FontFamily="Niagara Solid" Foreground="#FF00D1FF" FontSize="29.333" SelectionHighlightColor="#FF74FF00" RequestedTheme="Dark"/>
-        <TextBlock x:Name="Ikkunanpintaala_vastaus" HorizontalAlignment="Left" Margin="19,407,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Foreground="#FF00FFA2" FontFamily="Jokerman" FontSize="18.667"/>
-        <TextBlock x:Name="Lasinpintaala_vastaus" HorizontalAlignment="Left" Margin="19,479,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Foreground="#FF00FFA2" FontFamily="Jokerman" FontSize="18.667"/>
-        <TextBlock x:Name="Karminpiiri_vastaus" HorizontalAlignment="Left" Margin="19,554,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Foreground="#FF00FFA2" FontFamily="Jokerman" FontSize="18.667"/>
-        <TextBox x:Name="Korkeus_syote" HorizontalAlignment="Left" Margin="10,106,0,0" TextWrapping="Wrap" Text="Esim 27" VerticalAlignment="Top" FontFamily="Niagara Solid" Foreground="#FF00D1FF" FontSize="29.333" SelectionHighlightColor="#FF74FF00" RequestedTheme="Dark"/>
-        <TextBox x:Name="Karminleveys_syote" HorizontalAlignment="Left" Margin="10,178,0,0" TextWrapping="Wrap" Text="Esim 3" VerticalAlignment="Top" FontFamily="Niagara Solid" Foreground="#FF00D1FF" FontSize="29.333" SelectionHighlightColor="#FF74FF00" RequestedTheme="Dark"/>
+        <TextBox x:Name="Leveys_syote" HorizontalAlignment="Left" Margin="10,49,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontFamily="Niagara Solid" Foreground="#FF00D1FF" FontSize="29.333" SelectionHighlightColor="#FF74FF00" RequestedTheme="Dark"/>
+        <TextBlock x:Name="Ikkunanpintaala_vastaus" HorizontalAlignment="Left" Margin="19,407,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Foreground="#FF00FFA2" FontFamily="Niagara Solid" FontSize="18.667"/>
+        <TextBlock x:Name="Lasinpintaala_vastaus" HorizontalAlignment="Left" Margin="19,479,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Foreground="#FF00FFA2" FontFamily="Niagara Solid" FontSize="18.667"/>
+        <TextBlock x:Name="Karminpiiri_vastaus" HorizontalAlignment="Left" Margin="19,554,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Foreground="#FF00FFA2" FontFamily="Niagara Solid" FontSize="18.667"/>
+        <TextBox x:Name="Korkeus_syote" HorizontalAlignment="Left" Margin="10,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontFamily="Niagara Solid" Foreground="#FF00D1FF" FontSize="29.333" SelectionHighlightColor="#FF74FF00" RequestedTheme="Dark"/>
+        <TextBox x:Name="Karminleveys_syote" HorizontalAlignment="Left" Margin="10,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontFamily="Niagara Solid" Foreground="#FF00D1FF" FontSize="29.333" SelectionHighlightColor="#FF74FF00" RequestedTheme="Dark"/>
         <TextBlock x:Name="Ikkunanpintaala" HorizontalAlignment="Left" Margin="251,407,0,0" TextWrapping="Wrap" Text="Ikkunan Pinta-ala" VerticalAlignment="Top" Foreground="#FF00D1FF" FontFamily="Niagara Solid" FontSize="29.333" SelectionHighlightColor="#FF74FF00" RequestedTheme="Dark"/>
         <TextBlock x:Name="Lasinpintaala" HorizontalAlignment="Left" Margin="251,479,0,0" TextWrapping="Wrap" Text="Lasin Pinta-ala" VerticalAlignment="Top" Foreground="#FF00D1FF" FontFamily="Niagara Solid" FontSize="29.333" SelectionHighlightColor="#FF74FF00" RequestedTheme="Dark"/>
         <TextBlock x:Name="Karminpiiri" HorizontalAlignment="Left" Margin="251,554,0,0" TextWrapping="Wrap" Text="Karmin piiri" VerticalAlignment="Top" Foreground="#FF00D1FF" FontFamily="Niagara Solid" FontSize="29.333" SelectionHighlightColor="#FF74FF00" RequestedTheme="Dark"/>

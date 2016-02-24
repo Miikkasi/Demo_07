@@ -39,7 +39,29 @@ namespace WindowsApp
 
         private void Nappula_Click(object sender, RoutedEventArgs e)
         {
+            //Haetaan käyttäjän syöttämät luvut ja muutetaan ne inteistä stringeiksi
+            string leveysString = Leveys_syote.Text;
+            int leveys = int.Parse(leveysString);
 
+            
+            string korkeusString = Korkeus_syote.Text;
+            int korkeus = int.Parse(korkeusString);
+           
+            string karmiString = Karminleveys_syote.Text;
+            int karmi = int.Parse(karmiString);
+
+            //Lasketaan karmin piiri
+            int karpiiri = 2 * (korkeus + leveys) / 10;
+
+            //Lasketaan ikkunan pinta-ala
+            int lasilaske = (leveys * korkeus) / 10;
+
+            //Lasketaan lasin pinta-ala
+            int laske = (leveys - (2 * karmi)) * (korkeus - (2 * karmi)) / 10;
+
+            Karminpiiri_vastaus.Text = karpiiri.ToString() + " cm";
+            Ikkunanpintaala_vastaus.Text = lasilaske.ToString() + " cm^2";
+            Lasinpintaala_vastaus.Text = laske.ToString() + " cm^2";
         }
     }
 }
